@@ -1,0 +1,29 @@
+{
+  "name": "book-mgr-be",
+  "version": "1.0.0",
+  "description": "毕设项目的服务端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "毕设"
+  ],
+  "author": "赵韩宇",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-jwt": "^4.0.0",
+    "mongoose": "^5.11.18",
+    "node-xlsx": "^0.16.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
